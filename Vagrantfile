@@ -57,7 +57,7 @@ Vagrant.configure("2") do |config|
     vb.memory = "24000"
     vb.cpus = 8
   end
-  config.vm.provision :shell, path: 'aio.sh'
+  # config.vm.provision :shell, path: 'aio.sh'
   #
   # View the documentation for the provider you are using for more
   # information on available options.
